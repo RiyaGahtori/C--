@@ -10,8 +10,8 @@ int main -> int main() is the main function where program execution begins.
  main => A function. 'main' is the entry point of the program.
  ()   => it represents funtion.
 
-
-{} -> {body}
+{} -> {body}, A block is a set of logically connected statements that are surrounded by opening and closing braces.
+;  -> The semicolon is a statement terminator. i.e, each individual statement must be ended with a semicolon. It indicates the end of one logical entity.
 
 cout << "Hello World"; -> causes the message "Hello World" to be displayed on the screen.
  cout => it is a funtion.
