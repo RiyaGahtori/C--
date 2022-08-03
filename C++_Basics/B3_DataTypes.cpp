@@ -9,6 +9,11 @@ a. Built-in      :  1. int     : -1, 0, 1, 21   [Integer value]
                     4. Doublle :  1.2111111111  [Decimal numbers of high precision]
                     5. Bool    :  True or False [Boolean value]
 
-b. User-defined  :
-c. Derived       :
+b. User-defined  :  1. Struct
+                    2. Union
+                    3. Enum
+
+c. Derived       :  1. Array
+                    2. Function
+                    3. Pointer
 */
