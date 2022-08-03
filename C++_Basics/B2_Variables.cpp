@@ -12,15 +12,41 @@
 ~ int sum  =  21; means sum is an integer variable which holds value 21 in memory.
 ~ Syntax   :  Data_type  Variable_name = Value;   [int riri = 21;]
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                          Variable Scope 
-                                                         ----------------
-~ Scope of the variable is the region in code where the existence of variable is valid.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-~ Based on Scope, variable can be classified into two types:
-1. Local Variables   : Local variable are declared inside the braces of any function and can be accessed only from there.
-2. Gloabal Variables : Global variables are declared outside any function and can be accessed from anywhere.
-*/    
-
-// Can global and local variable have same name in C++? : Yes.
+//C++ program to show difference b/w definition and declaration of a variable 
+#include <iostream>
+using namespace std;
  
+int main()
+{
+      // this is declaration of variable a
+      int a;
+      // this is initialisation of a
+      a = 10;
+      // this is definition = declaration + initialisation
+      int b = 20;
+   
+    // declaration and definition of variable 'a123'
+    char a123 = 'a';
+ 
+    // This is also both declaration and definition as 'c' is allocated memory and assigned some garbage value.
+    float c;
+ 
+    // multiple declarations and definitions
+    int _c, _d45, e;
+ 
+    // Let us print a variable
+    cout << a123 << endl;
+ 
+    return 0;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-> Variable names in C++ can range from 1 to 255 characters.
+-> All variable name must begin with a letter of the alphabet or an  underscore(_).
+-> After the first initial letter, variable names can also contain letters and numbers.
+-> Variable names are case sensetive.
+-> No spcaes or special characters are allowed.
+-> You cannot use C++ keyword(a reserve word) ass a variable name.
+*/
