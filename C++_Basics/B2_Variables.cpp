@@ -38,7 +38,7 @@ int main()
  
     // Let us print a variable
     cout << a123 << endl;
- 
+
     return 0;
 }
 
