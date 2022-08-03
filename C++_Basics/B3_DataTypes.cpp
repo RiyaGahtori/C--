@@ -17,3 +17,23 @@ c. Derived       :  1. Array
                     2. Function
                     3. Pointer
 */
+
+#include <iostream>
+using namespace std;
+
+int main ()
+{
+    // int a = 21;
+    // int b = 99;
+    int a = 21, b = 99;
+    float pi = 3.14;
+    char c = 'r';
+    bool riri = true; //1 = true, 0 = false
+
+    cout<<"The value of a is : "<<a<<"\nThe value of b is : "<<b;
+    cout<<"\nThe value of pi is : "<<pi;
+    cout<<"\nThe value of c is : "<<c;
+    cout<<"\nThe value of riri is : "<<riri;
+
+    return 0;
+}
