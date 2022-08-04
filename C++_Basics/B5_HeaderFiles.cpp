@@ -6,7 +6,6 @@ There are two types of header files :
 
 //1. System header file
 #include<iostream>  
-
 //2. User header file
 // #include"riri.h"  --> this will produce an error if 'riri.h' is not present in the current directory.
 using namespace std;
