@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int a = 2, b = 1234567890, c = 21;
+    int a = 2, b = 1234, c = 21;
     cout<< "The value of a is : "<<a<<endl;
     cout<< "The value of b is : "<<b<<endl;
     cout<< "The value of c is : "<<c<<endl;
